@@ -1,0 +1,77 @@
+1️⃣Hardware Requirements
+
+Computer/Laptop (Minimum 4 GB RAM recommended)
+
+10 GB free disk space
+
+Internet connection (for dataset download & libraries)
+
+2️⃣ Software Requirements
+Operating System
+
+Windows 10 / 11
+
+Linux
+
+macOS
+
+(Works on any OS because Python is cross-platform)
+
+Programming Language
+
+Python 3.8 or above
+
+Python Libraries
+
+Add these inside requirements.txt
+
+pandas
+numpy
+matplotlib
+jupyter
+seaborn
+
+3️⃣ Dataset Requirements
+
+The dataset must contain:
+
+Column	Description
+Date	Transaction date
+Customer ID	Unique customer
+Gender	Male/Female
+Age	Customer age
+Product Category	Product type
+Quantity	Units purchased
+Price per Unit	Item cost
+Total Amount	Final bill
+4️⃣ Functional Requirements
+
+The system should:
+
+Load dataset
+
+Clean missing values
+
+Convert datatypes
+
+Calculate total sales
+
+Analyze sales by category
+
+Analyze customer behavior
+
+Identify top customers
+
+Generate monthly trends
+
+Display graphs
+
+5️⃣ Non-Functional Requirements
+
+Fast execution (<5 seconds for small dataset)
+
+Accurate calculations
+
+Easy to understand visualizations
+
+Reusable code structure
